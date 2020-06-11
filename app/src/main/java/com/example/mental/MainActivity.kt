@@ -12,13 +12,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        setSupportActionBar(findViewById(R.id.toolbar))
-
-        findViewById<FloatingActionButton>(R.id.fab).setOnClickListener {
-            val intent = Intent(this, ToDo::class.java)
-            startActivity(intent)
-        }
+        setContentView(R.layout.swish_activity)
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
