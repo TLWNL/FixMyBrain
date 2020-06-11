@@ -45,5 +45,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation 'com.zekapp.library:progreswheelview:1.1.5'
     implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'com.ramotion.circlemenu:circle-menu:0.3.2'
 
 }
