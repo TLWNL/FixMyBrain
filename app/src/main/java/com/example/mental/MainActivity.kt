@@ -7,12 +7,21 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val nextButton = findViewById<View>(R.id.nextButton)
+        nextButton.setOnClickListener(){
+            val nextScreenIntent = Intent(this,
+            ToDo::class.java)
+            startActivity(nextScreenIntent)
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

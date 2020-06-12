@@ -18,8 +18,9 @@
         </activity>
 
         <activity android:name=".ToDo" android:theme="@style/AppTheme.NoActionBar">
-            <action android:name="android.intent.action.DEFAULT" />
         </activity>
+
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
