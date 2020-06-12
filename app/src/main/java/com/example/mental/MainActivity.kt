@@ -16,12 +16,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val nextButton = findViewById<View>(R.id.nextButton)
-        nextButton.setOnClickListener(){
-            val nextScreenIntent = Intent(this,
-            ToDo::class.java)
-            startActivity(nextScreenIntent)
-        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
